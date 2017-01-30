@@ -1,0 +1,15 @@
+import argparse 
+
+if __name__ == "__main__":
+    parser=argparse.ArgumentParser()
+    parser.add_argument("sourcefile", action="store_true", help="source file for operation chain")
+    parser.add_argument("--outputbasename","-o",action="store_true", help="intermediate and final output files will use this as unique portion of file name")
+    parser.add_argument("--extractemails","-x",action="store_true", help="eXtract emails form file")
+
+    
+    args=parser.parse_args()
+    
+    print(args.sourcefile)
+    print(args.outputbasename)
+    print(args.extractemails)
+    

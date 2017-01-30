@@ -1,0 +1,14 @@
+import argparse 
+
+if __name__ == "__main__":
+    parser=argparse.ArgumentParser()
+    parser.add_argument("sourceFile", help="source file for operation chain")
+    parser.add_argument("outputBaseName", help="intermediate and final output files will use this as unique portion of file name")
+    parser.add_argument("operation",help="Operation to perform on file : default is full process")
+    
+    args=parser.parse_args()
+    
+    print(args.sourceFile)
+    print(args.outputBaseName)
+    print(args.operation)
+    
