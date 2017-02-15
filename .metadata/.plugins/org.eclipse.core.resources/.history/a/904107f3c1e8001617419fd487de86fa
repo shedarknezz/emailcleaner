@@ -1,0 +1,26 @@
+import argparse 
+'''
+Created on 1 Feb 2017
+
+@author: root
+'''
+
+class loader:
+    args=""
+
+    def __init__(self):
+        parser = argparse.ArgumentParser()
+        parser.add_argument("sourcefile", type=argparse.FileType('r'), help="source file for operation chain")
+        parser.add_argument("-o", "--outputnamebase", dest='filenameportion', help="intermediate and final output files will use this as unique portion of file name")
+        parser.add_argument("-x", "--extractemails", action="store_true", help="eXtract emails form file")
+        args = parser.parse_args()
+        
+    sourceFile=args.sourcefile
+    outputName=args.filenameportion
+    doExtract=args.extractemails
+        
+    def data(self):  
+        print(self.sourcefile)
+        print(self.outputName)
+        print(self.doExtract)
+        

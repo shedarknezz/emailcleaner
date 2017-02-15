@@ -1,0 +1,17 @@
+'''
+Created on 1 Feb 2017
+
+@author: root
+'''
+
+class loader(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        

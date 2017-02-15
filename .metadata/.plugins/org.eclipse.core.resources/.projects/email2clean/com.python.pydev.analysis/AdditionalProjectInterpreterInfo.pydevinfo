@@ -1,13 +1,17 @@
 -- VERSION_4
--- START DISKCACHE
-/root/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/email2clean/com.python.pydev.analysis/v2_indexcache
+-- START DISKCACHE_2
+/root/code/emailcleaner/.metadata/.plugins/org.eclipse.core.resources/.projects/email2clean/com.python.pydev.analysis/v2_indexcache
 -- END DISKCACHE
 -- START DICTIONARY
 0
 -- END DICTIONARY
 -- START TREE 1
-0
+2
+l|0|
+loa|0|
 -- END TREE
 -- START TREE 2
-0
+2
+__i|0|
+arg|0|
 -- END TREE

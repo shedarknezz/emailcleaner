@@ -1,0 +1,7 @@
+from loader import*
+
+
+if __name__ == "__main__":
+    l= loader.__init__()
+    l.data
+    
