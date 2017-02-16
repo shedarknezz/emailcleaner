@@ -1,0 +1,11 @@
+INSTUPLoaderUtils
+/root/code/emailcleaner/email2clean/LoaderUtils.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&3|4|2|7&&2|8|2|1
+args=4
+loader=1
+loader.__init__=5
+get_data=8
+loader.set_data=7
+LoaderUtils=2
+__init__=3
+set_data=6
